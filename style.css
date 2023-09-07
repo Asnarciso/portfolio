@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: grey;
+}
+
+
+nav{
+    background-color: pink;
+    height: 5em;
+    font-size: 14pt;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+#Nav-Logo{
+    font-size: 18pt;
+}
+
+h1{
+    font-size: 53px;
+    color: rgb(0, 0, 0);
+    font-family:cursive;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.itens-imagens{
+    width: 45%;
+    display: inline-table;
+    margin-right: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.carousel-caption h5{
+    font-size:80px;
+    color:rgb(74, 196, 58);
+    text-shadow: 2px 2px 2px black;
+}
