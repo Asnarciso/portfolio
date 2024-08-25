@@ -1,55 +1,112 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-weight: 400;
-    font-family: Roboto;
-    font-size: 15px;
-    line-height: 2.2em;
-    color: grey;
-}
-
-
-nav{
-    background-color: pink;
+nav {
+    background-color: #bdecb6;
     height: 5em;
     font-size: 14pt;
 }
 
-header{
-    margin-bottom: 30px;
-}
-
-#Nav-Logo{
+#Nav-Logo {
     font-size: 18pt;
 }
 
-h1{
-    font-size: 53px;
-    color: rgb(0, 0, 0);
-    font-family:cursive;
+nav li:hover{
+    text-decoration: underline wavy #00000081;
 }
 
-h2{
+body {
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+}
+
+h1 {
+    font-size: 53px;
+    font-family: cursive;
+}
+
+h2 {
     font-size: 24px;
     font-weight: 600;
 }
 
 
-.itens-imagens{
+.itens-imagens {
     width: 45%;
     display: inline-table;
     margin-right: 10px;
 }
 
-img{
+img {
     width: 100%;
+    opacity: 0.8;
 }
 
-.carousel-caption h5{
-    font-size:80px;
-    color:rgb(74, 196, 58);
-    text-shadow: 2px 2px 2px black;
+.carousel-caption h5 {
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.espacamento {
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.itens-servicos {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px;
+}
+
+.itens-servicos .btn {
+    margin: 0 10px;
+}
+
+.card-footer {
+    border: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    width: 70%;
+    background-color: #bdecb648;
+    padding: 1em;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+textarea
+{
+  width:100%;
+}
+
+footer{
+    border-top: solid 1px;
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+@media (max-width: 600px) {
+    .itens-servicos {
+        flex-direction: column;
+    }
 }
