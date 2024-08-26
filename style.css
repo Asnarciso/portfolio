@@ -105,6 +105,13 @@ footer{
     padding: 10px 0px;
 }
 
+.card img {
+    width: 100%; /* Define a largura da imagem para ocupar 100% da largura do card */
+    height: 200px; /* Altura fixa para todas as imagens */
+    object-fit: cover; /* Mantém a imagem centralizada e corta se necessário */
+}
+
+
 @media (max-width: 600px) {
     .itens-servicos {
         flex-direction: column;
